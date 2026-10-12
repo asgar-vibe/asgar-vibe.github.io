@@ -35,6 +35,18 @@
               cyan: '#06B6D4',
               mint: '#10B981',
               orange: '#FF8A3D',
+              blue: '#3B82F6',
+              lime: '#A3E635',
+              red: '#EF4444',
+              fuchsia: '#D946EF',
+              indigo: '#6366F1',
+              sky: '#38BDF8',
+              teal: '#14B8A6',
+              green: '#22C55E',
+              slate: '#64748B',
+              mustard: '#CA8A04',
+              berry: '#BE185D',
+              cocoa: '#92400E',
               navy: '#1E1B4B',
             }
           },
@@ -332,11 +344,39 @@
         tag: "Coding",
         description: "Interactive Sorting Algorithm Visualizer",
         path: "/sort-pulse/",
-        cardColor: "bg-rose-50",
-        pillColor: "bg-arcade-pink text-white",
-        accentBtn: "bg-arcade-pink text-white",
-      }
+        cardColor: "bg-blue-50",
+        pillColor: "bg-arcade-blue text-white",
+        accentBtn: "bg-arcade-blue text-white",
+      },
+      {
+          id: "typing-tower-defense",
+          name: "Typing Tower Defense",
+          category: "Games",
+          emoji: "⌨️",
+          tag: "Games",
+          description: "Type as fast as possible to protect the base from the enemy",
+          path: "/typing-tower-defense/",
+          cardColor: "bg-lime-50",
+          pillColor: "bg-arcade-lime text-arcade-navy",
+          accentBtn: "bg-arcade-lime text-arcade-navy",
+        }
     ];
+
+    
+
+    // Ready-to-use color sets for future cards, e.g. { ...CARD_PALETTES.red, id: "...", name: "..." }
+    const CARD_PALETTES = {
+      red:     { cardColor: "bg-red-50",     pillColor: "bg-arcade-red text-white",         accentBtn: "bg-arcade-red text-white" },
+      fuchsia: { cardColor: "bg-fuchsia-50", pillColor: "bg-arcade-fuchsia text-white",     accentBtn: "bg-arcade-fuchsia text-white" },
+      indigo:  { cardColor: "bg-indigo-50",  pillColor: "bg-arcade-indigo text-white",      accentBtn: "bg-arcade-indigo text-white" },
+      sky:     { cardColor: "bg-sky-50",     pillColor: "bg-arcade-sky text-arcade-navy",   accentBtn: "bg-arcade-sky text-arcade-navy" },
+      teal:    { cardColor: "bg-teal-50",    pillColor: "bg-arcade-teal text-arcade-navy",  accentBtn: "bg-arcade-teal text-arcade-navy" },
+      green:   { cardColor: "bg-green-50",   pillColor: "bg-arcade-green text-arcade-navy", accentBtn: "bg-arcade-green text-arcade-navy" },
+      slate:   { cardColor: "bg-slate-100",  pillColor: "bg-arcade-slate text-white",       accentBtn: "bg-arcade-slate text-white" },
+      mustard: { cardColor: "bg-yellow-50",  pillColor: "bg-arcade-mustard text-arcade-navy", accentBtn: "bg-arcade-mustard text-arcade-navy" },
+      berry:   { cardColor: "bg-pink-50",    pillColor: "bg-arcade-berry text-white",       accentBtn: "bg-arcade-berry text-white" },
+      cocoa:   { cardColor: "bg-stone-100",  pillColor: "bg-arcade-cocoa text-white",       accentBtn: "bg-arcade-cocoa text-white" },
+    };
 
     const CATEGORIES = ["All", "Games", "Math & Logic", "Coding", "English", "Creative"];
 
